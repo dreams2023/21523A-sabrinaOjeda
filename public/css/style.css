@@ -1,0 +1,16 @@
+
+  /* Estilo para el footer */
+  footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: white; /* Color del texto del footer */
+    padding: 20px 0; /* Espaciado interno del footer (arriba y abajo) */
+    text-align: center; /* Alineación del texto al centro */
+    position: absolute; /* Posición absoluta para que quede al pie de la publicación */
+    bottom: 0; /* Fijar en la parte inferior */
+    width: 100%; /* Ancho del footer al 100% del contenedor */
+  }
+
+  /* Estilo para el párrafo dentro del footer */
+  .p_footer {
+    font-size: 14px; /* Tamaño de fuente del texto del footer */
+  }
