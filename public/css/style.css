@@ -1,16 +1,43 @@
 
   /* Estilo para el footer */
   footer {
-    background-color: #333; /* Color de fondo del footer */
-    color: white; /* Color del texto del footer */
-    padding: 20px 0; /* Espaciado interno del footer (arriba y abajo) */
-    text-align: center; /* Alineación del texto al centro */
-    position: absolute; /* Posición absoluta para que quede al pie de la publicación */
-    bottom: 0; /* Fijar en la parte inferior */
-    width: 100%; /* Ancho del footer al 100% del contenedor */
+    background-color: #333; 
+    color: white; 
+    padding: 20px 0;
+    text-align: center; 
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
   }
 
   /* Estilo para el párrafo dentro del footer */
   .p_footer {
-    font-size: 14px; /* Tamaño de fuente del texto del footer */
+    font-size: 14px; 
   }
+
+  body {
+    background: linear-gradient(45deg, #ff9800, #e91e63); 
+  }
+
+
+  /* Estilo para los elementos de lista en la barra de navegación */
+.nav-item {
+  
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Estilo para los enlaces dentro de los elementos de lista */
+.nav-link {
+  text-decoration: none;
+  color:white;
+  transition: color 0.3s;
+}
+
+/* Estilo para el efecto hover */
+.nav-link:hover {
+  color: #e91e63; 
+}
+
+  
+
